@@ -1,0 +1,119 @@
+body {
+    background-color: rgb(235, 223, 223);
+}
+
+div {
+    color: black;
+}
+
+.sign-up-flex {
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 80px 570px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.50);
+}
+
+.create-account {
+    color: #2B2929;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 80px;
+    margin-left: 30px;
+}
+
+.name-flex, .input-flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.middle-side .name {
+    color: #2B2929;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 80px;
+    margin-top: -26px;
+    margin-left: -50px;
+}
+
+.name-username, .name-password, .name-confirm {
+    color: #2B2929;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 80px;
+    margin-left: 37px;
+    margin-bottom: -20px;
+    margin-top: -22px;
+}
+
+.name-input {
+    border-radius: 13px;
+    border: 2px solid #800080;
+    background: #FFF;
+    align-items: center;
+    flex-shrink: 0;
+    width: 140px;
+    margin-top: -20px;
+    padding: 8px 10px;
+}
+
+.middle-side {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.username-input {
+    width: 344px;
+    padding: 10px;
+    border-radius: 13px;
+    border: 2px solid #800080;
+    background: #FFF;
+    margin-left: 16px;
+}
+
+.sign-up-button {
+    border-radius: 13px;
+    background: #800080;
+    display: flex;
+    padding: 8px 10px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    width: 367px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.mini-box-lower {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.mini-box-lower .already,
+.mini-box-lower .sign-in
+{
+    color: #2B2929;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.mini-box-lower .sign-in {
+    color: #E032E0;
+    text-decoration-line: underline;
+    margin-left: 4px;
+    cursor: pointer;
+}

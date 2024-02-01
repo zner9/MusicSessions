@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="stylesheets/general.css">
+    <link rel="stylesheet" href="stylesheets/header.css">
+    <link rel="stylesheet" href="stylesheets/signup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="left-side">
+            <div><a href="home-noaccount.html"><img src="pictures/Logo.png" class="logo"></a></div>
+        </div>
+        <div class="right-side">
+        </div>
+    </header>
+    <main>
+        <form action="student-login.html" method="POST"> 
+        <div class="sign-up-flex">
+            <div class="create-account">
+                Create an Account
+            </div>
+            <div class="middle-side">
+                <div class="name-flex">
+                    <div class="name">First Name</div>
+                    <div class="name">Last Name</div>
+                </div>
+                <div class="input-flex">
+                    <input type="text" placeholder="First Name" class="name-input">
+                    <input type="text" placeholder="Last Name" class="name-input">
+                </div>
+                <div class="name-username">Username</div>
+                    <input type="text" placeholder="Username" class="username-input" name="student-username">
+                <div class="name-password">Password</div>
+                    <input type="text" placeholder="Password" class="username-input" name="student-password">
+                <div class="name-confirm">Confirm Password</div>
+                    <input type="text" placeholder="Password" class="username-input" name="confirm-password">
+                <a href="student-login.php">
+                    <button class="sign-up-button">Sign Up</button>
+                </a>
+            </div>
+            
+            <div class="mini-box-lower">
+                <div class="already">Already have an account?</div>
+                <a href="student-login.html">
+                    <div class="sign-in">Sign In</div>
+                </a>
+            </div>
+        </div>
+        </form>
+    </main>
+</body>
+</html>
